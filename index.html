@@ -11,6 +11,9 @@
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <!-- aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- style.css link -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -18,16 +21,14 @@
 
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar bg-body-tertiary">
+        <section class="container-fluid">
       
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
       
-          <a class="navbar-brand" href="#">Offcanvas navbar</a>
-      
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <div class="offcanvas-title" id="offcanvasNavbarLabel"><img src="https://amyj0hn.github.io/project-images/images/amylogo.png" alt="logo"></div>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -37,69 +38,69 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"> <a href="#"><i class="bi bi-house-door"></i>Home</a></a>
+                  <a class="nav-link active" aria-current="page" href="#Home"> <a href="#"><i class="bi bi-house-door"></i>Home</a></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><a href="#"><i class="bi bi-person-circle"></i>About</a></a>
+                  <a class="nav-link active" href="#About"><a href="#"><i class="bi bi-person-circle"></i>About</a></a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><a href="#"><i class="bi bi-file-person"></i>Resume</a></a>
+                  <a class="nav-link active" href="#Resume"><a href="#"><i class="bi bi-file-person"></i>Resume</a></a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><a href="#"><i class="bi bi-stars"></i>Skills</a></a>
+                  <a class="nav-link active" href="#Skills"><a href="#"><i class="bi bi-stars"></i>Skills</a></a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><a href="#"><i class="bi bi-people-fill"></i>Testimonial</a></a>
+                  <a class="nav-link active" href="#Testimonials"><a href="#"><i class="bi bi-people-fill"></i>Testimonials</a></a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><a href="#"><i class="bi bi-files"></i>Projects</a></a>
+                  <a class="nav-link active" href="#Projects"><a href="#"><i class="bi bi-files"></i>Projects</a></a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><a href="#"><i class="bi bi-chat-dots-fill"></i>Reach Me</a></a>
-                </li>
-      
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-tiktok"></i></a></li>
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-linkedin"></i></a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-instagram"></i></a></li>
-                  </ul>
+                  <a class="nav-link active" href="#ReachMe"><a href="#"><i class="bi bi-chat-dots-fill"></i>Reach Me</a></a>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+             
             </div>
           </div>
-        </div>
+        </section>
   </nav>
 
-  <main class="maincontent">
+  <main class="maincontent container-fluid">
 
     <div class="info">
 
       <div class="container-fluid d-flex">
         <div class="row">
-        <h2>Home</h2>
+        <h2 class="heading" id="Home">Home</h2>
+        <div class="homecontent d-flex">
+
+            <div class="col">
+
+               <div class="rowname justify-content-center" >Amy Johnson</div>
+               <div class="rowaddress"><a href="https://maps.app.goo.gl/GBUhyMsrLQyZ3bhw5" target="_blank"><i class="bi bi-geo-alt" ></i>65 Great Fish Avenue, Manenberg Cape Town</a></div>
+                </div>
+                
+
+            <div class="col">
+            <img src="https://amyj0hn.github.io/project-images/images/20240422_091901.jpg" alt="profile" loading="lazy">
+            </div>
+
+            <div class="col">
+                Aspiring Web Developer
+                </div>
+        </div>
         </div>
         
         </div>
 
       <div class="container-fluid d-flex">
         <div class="row">
-        <h2>About</h2>
+        <h2 class="heading" id="About">About</h2>
         <div class="aboutparagraph">
           I'm a lovely, cheerful, and kind person who is honest and punctual. I work well in groups as well as on my own because I like to create objectives for myself that I will accomplish. I have good listening and communication skills. I have a creative mind and am constantly ready for new challenges. I am well-organized and always plan ahead to ensure that I handle my time well.I am a dedicated, organized, and structured person. I have strong interpersonal skills, work well as part of a team, and am eager to learn and grow. I am loyal and dependable, and I frequently seek new tasks in a wide range of professional fields.
         </div>
@@ -109,7 +110,7 @@
 
       <div class="container-fluid">
         <div class="row">
-            <h2>Resume</h2>
+            <h2 class="heading" id="Resume">Resume</h2>
         </div>
       
         <p class="d-inline-flex gap-1">
@@ -189,7 +190,7 @@
 
       <div class="container-fluid">
         <div class="row">
-            <h2>Skills</h2>
+            <h2 class="heading" id="Skills">Skills</h2>
         </div>
         
         <div class="container text-center">
@@ -280,7 +281,7 @@
 
     <div class="container-fluid">
         <div class="row">
-        <h2>Testimonial</h2>
+        <h2 class="heading" id="Testimonials">Testimonials</h2>
       </div>
       <div class="row justify-content-center">
         <div class="col-6">
@@ -349,7 +350,7 @@
 
         <div class="container-fluid d-flex">
           <div class="row">
-          <h2>Projects</h2>
+          <h2 class="heading" id="Projects">Projects</h2>
 
           <div class="card" style="width: 18rem;">
             <div class="card-body">
@@ -398,7 +399,7 @@
           <div class="container-fluid d-flex">
             <div class="row ">
               <div class="col-md-6 -d-flex"></div>
-            <h2>Reach Me</h2>
+            <h2 class="heading" id="ReachMe">Reach Me</h2>
         <form action="contactmessage">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -409,26 +410,32 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Clear</button>
             </div>
+            
           </form>
         </div>
   
     </div>
+    <footer class="container-fluid">
+      <div class="row">
+        <p class="lead text-center">
+          <span>Amy's Porfolio</span>
+          <span>&copy; 2024</span>
+        </p>
+      </div>
+    </footer> 
   </main>
 
 
-  <footer class="container-fluid d-flex">
-    <div class="row">
-      <p class="lead">
-        <span>Amy's Porfolio</span>
-        <span>&copy;</span>
-      </p>
-    </div>
-  </footer> 
->>>>>>>>> Temporary merge branch 2
+
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
+      
 
 </body>
 </html>
