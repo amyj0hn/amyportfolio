@@ -41,27 +41,27 @@
                   <a class="nav-link active" aria-current="page" href="#Home"> <a href="#"><i class="bi bi-house-door"></i>Home</a></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#About"><a href="#"><i class="bi bi-person-circle"></i>About</a></a>
+                  <a class="nav-link"  href="#About"><i class="bi bi-person-circle"></i>About</a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link active" href="#Resume"><a href="#"><i class="bi bi-file-person"></i>Resume</a></a>
+                  <a class="nav-link" href="#Resume"><i class="bi bi-file-person"></i>Resume</a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link active" href="#Skills"><a href="#"><i class="bi bi-stars"></i>Skills</a></a>
+                  <a class="nav-link" href="#Skills"><i class="bi bi-stars"></i>Skills</a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link active" href="#Testimonials"><a href="#"><i class="bi bi-people-fill"></i>Testimonials</a></a>
+                  <a class="nav-link" href="#Testimonials"><i class="bi bi-people-fill"></i>Testimonials</a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link active" href="#Projects"><a href="#"><i class="bi bi-files"></i>Projects</a></a>
+                  <a class="nav-link" href="#Projects"><i class="bi bi-files"></i>Projects</a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link active" href="#ReachMe"><a href="#"><i class="bi bi-chat-dots-fill"></i>Reach Me</a></a>
+                  <a class="nav-link" href="#ReachMe"><i class="bi bi-chat-dots-fill"></i>Reach Me</a>
                 </li>
               </ul>
              
@@ -81,24 +81,33 @@
           data-aos-easing="ease-in-sine">
           <h2 class="heading d-block" id="Home">Home</h2>
      </div>
-        <div class="homecontent d-flex">
+        <div class="homecontent row">
 
-            <div class="col">
+            <div class="col-lg-4 col-sm-12">
 
                <div class="rowname justify-content-center" data-aos="fade-up"
                data-aos-anchor-placement="bottom-bottom">Amy Johnson</div>
                <div class="rowaddress"><a href="https://maps.app.goo.gl/GBUhyMsrLQyZ3bhw5" target="_blank"><i class="bi bi-geo-alt" ></i>65 Great Fish Avenue, Manenberg Cape Town</a></div>
-                </div>
+            </div>
                 
 
-            <div class="col">
+            <div class="col-lg-4 col-sm-12">
             <img src="https://amyj0hn.github.io/project-images/images/20240422_091901.jpg" alt="profile" loading="lazy" data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
             </div>
 
-            <div class="col" >
-              <div id="jobtitle"> Aspiring Web Developer</div>
+            <div class="col-lg-4 col-sm-12" >
+              <div id="jobtitle"> 
+                <ol>
+                  <div class="d-flex flex-lg-column justify-content-evenly">
+                    <i class="bi bi-envelope-at m-1"></i><h5 class="h5">amyj62450@gmail.com</h5>
+                    
+                    <li> <a href="https://www.linkedin.com/in/amy-johnson-5328b924a/" target="_blank"> <i class="bi bi-linkedin m-3"></i></a></li>
+                  </div>
+                  <div class="rowname">Aspiring Web Developer</div>
+                </ol> 
+            </div>
                
                 </div>
         </div>
@@ -124,20 +133,20 @@
           data-aos-offset="300"
           data-aos-easing="ease-in-sine">
           <h2 class="heading" id="Resume">Resume</h2>
-     </div> 
-        </div>
+        </div> 
+      </div>
       
-        <p class="d-inline-flex gap-1">
+        <div class="d-inline-flex gap-1">
             <a class="btn" data-bs-toggle="collapse" href="#Education" role="button" aria-expanded="false" aria-controls="Education">Education</a>
             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#Work" aria-expanded="false" aria-controls="Work">Work Experience</button>
             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#References" aria-expanded="false" aria-controls="References">References</button>
             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="Education Work References">Toggle all</button>
-          </p>
-          <div class="row">
-            <div class="col">
-              <div class="collapse multi-collapse" id="Education">
-                <div class="card card-body">
-                <h5>Subjects</h5>
+        </div>
+          <div class="row gap-1">
+            <div class="col-4">
+              <div class="collapse multi-collapse " id="Education">
+                <div class="card card-body edu-card d-flex flex-column justify-content-center">
+                <h5 class="h5">Subjects</h5>
                 <ol>
                   <li>Afrikaans <span>85%</span></li>
                   <li>Business Studies <span>78%</span></li>
@@ -147,7 +156,7 @@
                   <li>Life Orientation <span>63%</span></li>
                   <li>Mathematics <span>49%</span></li>
                 </ol>
-                <h5>Achievements</h5>
+                <h5 class="h5">Achievements</h5>
                 <ol>
                   <li>Matriculated with a Bachelor's and one distinction.</li>
                   <li>Graduated top of my class for CAT.</li>
@@ -157,10 +166,10 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-4">
               <div class="collapse multi-collapse" id="Work">
-                <div class="card card-body">
-                  <h5>IT Suport Learner</h5>
+                <div class="card card-body edu-card">
+                  <h5 class="h5">IT Suport Learner</h5>
                   <h6>Isquared Technologies/ Cape Town/ Apr 2023 - Nov 2023</h6>
                   <ul>
                     <li>Enhanced technical skills through hands-on experience in IT support.</li>
@@ -173,24 +182,24 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-3">
                 <div class="collapse multi-collapse" id="References">
-                  <div class="card card-body">
-                    <h5>Charles Grey</h5>
+                  <div class="card card-body edu-card">
+                    <h5 class="h5">Charles Grey</h5>
                    <ol>
                     <li>Peninsula School Feeding Association</li>
                     <li>charles@psfa.org.za</li>
                     <li>0792368007</li>
-                  </ol>
+                    </ol>
 
-                  <h5>Lizanne Badenhorst</h5>
+                  <h5 class="h5">Lizanne Badenhorst</h5>
                   <ol>
                     <li>Isquared Technologies</li>
                     <li>lizanne@isquared.co.za</li>
                     <li>0216715578</li>
                   </ol>
 
-                  <h5>Cedric Esterhuizen</h5>
+                  <h5 class="h5">Cedric Esterhuizen</h5>
                   <ol>
                     <li>Christel House South Africa</li>
                     <li>cesterhuizen@sa.christelhouse.org</li>
@@ -317,27 +326,29 @@
         
         </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid w-100" >
         <div class="row">
           <div data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine">
           <h2 class="heading" id="Testimonials">Testimonials</h2>
-     </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-6">
-          <div id="carouselCaptions" class="carousel slide">
+          </div>
+        </div>
+      <div class="row justify-content-center w-100">
+
+          <div id="carouselCaptions" class="carousel slide w-100 m-auto">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
               <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="background d-inline-flex"><img src="https://amyj0hn.github.io/project-images/images/thabo.jpg" class="d-block" alt="picture"></div>
+                <div class="background d-inline-flex"><img src="https://amyj0hn.github.io/project-images/images/thabo.jpg" class="d-block m-auto" alt="picture" loading="lazy"></div>
 
                 <div class="carousel-caption d-none d-md-block align-content-around">
                   <h5>Mardoquéiro D. Lukembeladio</h5>
@@ -345,14 +356,14 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://amyj0hn.github.io/project-images/images/kyle.jpg" class="d-block" alt="picture">
+                <img src="https://amyj0hn.github.io/project-images/images/kyle.jpg" class="d-block m-auto" alt="picture" loading="lazy">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Kyle Brink</h5>
                   <p>"Amy is an extremely dedicated worker who always strives to do the best she can. She remains willing to attain new knowledge and works very well in a team. Amy has the ability to create a comfortable atmosphere for those around her and always goes the extra mile when necessary. I highly recommended Amy and I am confident she will exceed your expectations."</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://amyj0hn.github.io/project-images/images/zizipho.webp" class="d-block" alt="picture">
+                <img src="https://amyj0hn.github.io/project-images/images/zizipho.webp" class="d-block m-auto" alt="picture" loading="lazy">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Zizipho Copiso</h5>
                   <p>"Amy is a kind and giving person. She is always eager to help and always ready to assist. She is very determined and strong-willed. When she puts her mind to something she makes sure to gets it done.  She is overall the best classmate and friend anyone can wish for."</p>
@@ -360,7 +371,7 @@
               </div>
 
               <div class="carousel-item">
-                <img src="https://amyj0hn.github.io/project-images/images/email icon.jpg" class="d-block" alt="picture">
+                <img src="https://amyj0hn.github.io/project-images/images/lamla.jpg" class="d-block m-auto" alt="picture"loading="lazy">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Lamlankosi</h5>
                   <p>"Amy is an exceptional leader, caring and bold. As our team leader, she ensures clarity in roles and fosters a supportive environment. A true people's person, her kindness shines through. Amy's willingness to push herself beyond her comfort zone is truly inspiring. When I first got to know her, she was much more introverted, but now she is confident enough to speak in front of others."</p>
@@ -368,10 +379,26 @@
               </div>
 
               <div class="carousel-item">
-                <img src="https://amyj0hn.github.io/project-images/images/chameleon.png" class="d-block" alt="picture">
+                <img src="https://amyj0hn.github.io/project-images/images/mapule.png" class="d-block m-auto" alt="picture"loading="lazy">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Fifth slide label</h5>
-                  <p>Some representative placeholder content for the fifth slide.</p>
+                  <h5>Mapule Mbuzwana</h5>
+                  <p>"Amy is the real deal! her coding skills are off the charts, whether it's making websites look amazing or handling all the tech stuff behind the scenes. Plus, she's super easy to work with and always bring fresh ideas to the table. Can't recommend her enough!"</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="https://amyj0hn.github.io/project-images/images/daniel.jpg" class="d-block m-auto" alt="picture" loading="lazy">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Daniel Umetor</h5>
+                  <p>"Amy is a very hardworking individual and is always committed to the task at hand. She is very creative with her designs and always amazes me by how she brings her ideas to life".</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="https://amyj0hn.github.io/project-images/images/joel.jpg" class="d-block m-auto" alt="picture" loading="lazy">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Joel Mukanya</h5>
+                  <p>"Amy is a highly creative, well-behaved, and dedicated individual who thrives on collaborating with her peers and excels at working on project assignments. She has acquired various skills and tools, including HTML5, CSS3, Bootstrap, VS Code, and wireframe. I am pleased to introduce her as an exceptional candidate and developer."</p>
                 </div>
               </div>
 
@@ -385,12 +412,11 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div> 
-        </div>
       </div>
         
     </div>
 
-        <div class="container-fluid ">
+        <div class="container-fluid row">
           <div class="row">
          
           <div data-aos="fade-left"
@@ -399,34 +425,34 @@
               <h2 class="heading" id="Projects">Projects</h2>
          </div>
 
-            <div class="container d-flex justify-content-center" id="projectcards">
-          <div class="card" style="width: 15rem;">
+            <div class="container row gap-3" id="projectcards">
+          <div class="card m-auto col-4" style="width: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Keyboard</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">Created by Amy Johnson</h6>
-              <p class="card-text"><img src="" alt="projectimg"></p>
-              <button class="btn"><a href="#" class="card-link bg-tertiary"><i class="bi bi-github"></i>GitHub</a></button>
-              <button class="btn"><a href="#" class="card-link"><i class="bi bi-caret-up-square-fill"></i>Vercel</a></button>
+              <p class="card-text"><img src="https://amyj0hn.github.io/project-images/images/keyboard.png" alt="projectimg" loading="lazy">></p>
+              <button class="btn"><a href="https://github.com/amyj0hn/Keyboard.git" class="card-link bg-tertiary" target="_blank"><i class="bi bi-github"></i>GitHub</a></button>
+              <button class="btn"><a href="https://keyboard-swart.vercel.app/" class="card-link" target="_blank"><i class="bi bi-caret-up-square-fill"></i>Vercel</a></button>
             </div>
           </div>
 
-          <div class="card" style="width: 15rem;">
+          <div class="card m-auto col-4" style="width: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Calculator</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">Created by Amy Johnson</h6>
-              <p class="card-text"><img src="" alt="projectimg"></p>
-              <button class="btn"><a href="#" class="card-link"><i class="bi bi-github"></i>GitHub</a></button>
-              <button class="btn"><a href="#" class="card-link"><i class="bi bi-caret-up-square-fill"></i>Vercel</a></button>
+              <p class="card-text"><img src="https://amyj0hn.github.io/project-images/images/calculator.png" alt="projectimg" loading="lazy">></p>
+              <button class="btn"><a href="https://github.com/amyj0hn/calculator.git" class="card-link" target="_blank"><i class="bi bi-github"></i>GitHub</a></button>
+              <button class="btn"><a href="https://calculator-nine-lake-91.vercel.app/" class="card-link" target="_blank"><i class="bi bi-caret-up-square-fill"></i>Vercel</a></button>
             </div>
           </div>
 
-          <div class="card" style="width: 15rem;">
+          <div class="card m-auto col-4" style="width: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Group project</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">E-commerce website</h6>
-              <p class="card-text"><img src="" alt="projectimg">.</p>
-              <button class="btn"><a href="#" class="card-link bg-tertiary"><i class="bi bi-github"></i>GitHub</a></button>
-              <button class="btn"><a href="#" class="card-link"><i class="bi bi-caret-up-square-fill"></i>Vercel</a></button>
+              <p class="card-text"><img src="https://amyj0hn.github.io/project-images/images/DAAL_motors.png" alt="projectimg" loading="lazy">>.</p>
+              <button class="btn"><a href="https://github.com/amyj0hn/group3.git" class="card-link bg-tertiary" target="_blank"><i class="bi bi-github"></i>GitHub</a></button>
+              <button class="btn"><a href="https://group3-smfz.vercel.app/" class="card-link"><i class="bi bi-caret-up-square-fill" target="_blank"></i>Vercel</a></button>
             </div>
           </div>
         </div>
@@ -451,8 +477,8 @@
               <label for="exampleFormControlTextarea1" class="form-label">Message</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="submit" class="btn btn-primary">Clear</button>
+            <button type="submit" class="btn">Submit</button>
+            <button type="submit" class="btn">Clear</button>
 
 
           </div>
@@ -460,12 +486,10 @@
             
           </form>
         </div>
-                    <i class="bi bi-telephone"></i>
-            <i class="bi bi-tiktok"></i>
+        <a href="https://www.tiktok.com/@amy_johnson4.5?_t=8mEXS4kqUon&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
+        <a href="https://www.instagram.com/aj_chilled_boo/?igsh=Yjd0OTF3a3M3MzRn" target="_blank"><i class="bi bi-instagram"></i></a>
+        
 
-            <i class="bi bi-linkedin"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-envelope-at"></i>
   
     </div>
     <footer class="container-fluid">
